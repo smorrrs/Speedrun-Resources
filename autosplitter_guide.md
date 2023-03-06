@@ -31,8 +31,7 @@ Find level names:
 Depends on what engine the game is created in.
 
 Unity Engine:
-* Scan for String where value = "Assets/Scenes/Levels/"
-
+* Scan for String where value = "Assets/Scenes/"
 * Add all addresses found to the addresslist.
 * Edit the Type of all these addresses to String with a very large length so that you can see the whole value (e.g. 120)
 * Level file names will be shown as [LEVEL NAME].unity
