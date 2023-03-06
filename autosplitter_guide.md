@@ -27,6 +27,17 @@ DO NOT download Cheat Engine from anywhere else as some websites package it with
 Watch these three videos: GH102, GH103, and GH104
 https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3 
 
+Find level names:
+Depends on what engine the game is created in.
+
+Unity Engine:
+* Scan for String where value = "Assets/Scenes/Levels/"
+
+* Add all addresses found to the addresslist.
+* Edit the Type of all these addresses to String with a very large length so that you can see the whole value (e.g. 120)
+* Level file names will be shown as [LEVEL NAME].unity
+
+
 ## Pointer scan: 
 
 Watch GH105
