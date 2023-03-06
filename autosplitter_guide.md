@@ -6,19 +6,26 @@ An autosplitter works by reading the values stored by your game in your computer
 
 # Required Tools
 
-Download LiveSplit
+## LiveSplit
 
-Download Cheat Engine
+## Cheat Engine
+Cheat Engine is a tool that allows you to view (and edit) values in memory used by a given process (e.g. a game). 
+
+Download Cheat Engine directly from its GitHub repo: https://github.com/cheat-engine/cheat-engine 
+
+DO NOT download Cheat Engine from anywhere else as some websites package it with poopware.
+
+
 
 
 # Finding values in Cheat Engine
 
-Find variables:
+## Find variables:
 
 Watch these three videos: GH102, GH103, and GH104
 https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3 
 
-Pointer scan: 
+## Pointer scan: 
 
 Watch GH105
 https://www.youtube.com/watch?v=rBe8Atevd-4&t=332s
