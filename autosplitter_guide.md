@@ -47,5 +47,5 @@ Address variable: [picture]
 
 # Additional Resources
 
-Discord for asking questions: https://discord.gg/N6wv8pW
+Discord for asking questions (and more tutorials): https://discord.gg/N6wv8pW
 
