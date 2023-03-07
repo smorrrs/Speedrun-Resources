@@ -3,7 +3,10 @@ A guide for creating a LiveSplit autosplitter/ load remover for a game on PC.
 
 An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values. For example, an autosplitter can observe the location in memory where the game stores the name of the current level you're in, and can trigger the timer to start when it detects that that value matches the name of the first level of the game.
 
-This guide will focus on the steps to write an autosplitter script. [This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available through LiveSplit, making a splitter for a game on console, etc.)
+This guide will focus on the steps to write an autosplitter script in a more comprehensive way than other tutorials available.
+
+[This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available through LiveSplit, making a splitter for a game on console, etc.)
+
 
 # Required Tools
 
