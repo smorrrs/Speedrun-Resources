@@ -1,18 +1,20 @@
 # Autosplitter Creation Guide
-A guide for creating a LiveSplit autosplitter/ load remover for a game on PC.
-
-An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values. For example, an autosplitter can observe the location in memory where the game stores the name of the current level you're in, and can trigger the timer to start when it detects that that value matches the name of the first level of the game.
+A guide for creating a LiveSplit autosplitter/ load remover for a PC game.
 
 This guide will focus on the steps to write an autosplitter script.
-[This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available through LiveSplit, making a splitter for a console game, etc.)
+[This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available to others, making a splitter for a console game, etc.)
 
 
 # Functions of a Splitter
+An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values. 
+
 You can implement several capabilities for a LiveSplit timer with autosplitter script. The basic ones:
 
 * Auto start: Automatically begin a timer (e.g. the timer starts when the player begins the first level of the game)
 * Auto split: Automatically split, or end timing for one section and begin timing for the next section (e.g. when the player starts the second level, time counted toward level 1 ends and time counted toward level 2 begins)
 * Load removal: Automatically pause the timer whenever the game is on a loading screen and resume the timer afterward
+
+An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values. For example, an autosplitter can observe the location in memory where the game stores the name of the current level you're in, and can trigger the timer to start when it detects that that value matches the name of the first level of the game.
 
 
 # Required Software
