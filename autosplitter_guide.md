@@ -7,26 +7,52 @@ This guide will focus on the steps to write an autosplitter script.
 [This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available through LiveSplit, making a splitter for a console game, etc.)
 
 
-# Required Tools
+# Functions of a Splitter
+You can implement several capabilities for a LiveSplit timer with autosplitter script. The basic ones:
+
+* Auto start: Automatically begin a timer (e.g. the timer starts when the player begins the first level of the game)
+* Auto split: Automatically split, or end timing for one section and begin timing for the next section (e.g. when the player starts the second level, time counted toward level 1 ends and time counted toward level 2 begins)
+* Load removal: Automatically pause the timer whenever the game is on a loading screen and resume the timer afterward
+
+
+# Required Software
+All tools here are free.
+
 
 ## LiveSplit
 
+See [link]
+
+
 ## Cheat Engine
-Cheat Engine is a tool that allows you to view (and edit) values in memory used by a given process (e.g. a game). 
+Cheat Engine is a tool that allows you to view values in memory used by a given process (e.g. a game). It also allows you to edit these values (hence the name "cheat engine") but we don't need to do that.
 
 Download Cheat Engine directly from its GitHub repo: https://github.com/cheat-engine/cheat-engine 
 
 DO NOT download Cheat Engine from anywhere else as some websites package it with poopware.
 
 
+## GitHub
+You'll need to have a GitHub account 
+
 
 
 # Finding Memory Addresses for Game Values
 
-## Find variables:
+## How to Find Values:
 
-Watch these three videos: GH102, GH103, and GH104
-https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3 
+Watch these three videos from the Guided Hacking 100 series: 
+* GH102: https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3 
+* GH103: 
+* GH104: 
+
+
+## What Values to Search For
+The values you need to find depend on 
+
+For a simple load remover, 
+
+For basic autostart and autosplit, 
 
 Find level names:
 Depends on what engine the game is created in.
