@@ -14,8 +14,6 @@ You can implement several capabilities for a LiveSplit timer with autosplitter s
 * Auto split: Automatically split, or end timing for one section and begin timing for the next section (e.g. when the player starts the second level, time counted toward level 1 ends and time counted toward level 2 begins)
 * Load removal: Automatically pause the timer whenever the game is on a loading screen and resume the timer afterward
 
-An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values. For example, an autosplitter can observe the location in memory where the game stores the name of the current level you're in, and can trigger the timer to start when it detects that that value matches the name of the first level of the game.
-
 
 # Required Software
 All tools here are free.
