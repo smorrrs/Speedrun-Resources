@@ -33,7 +33,7 @@ DO NOT download Cheat Engine from anywhere else as some websites package it with
 
 
 ## GitHub
-You'll need to have a GitHub account 
+You'll need to have a GitHub account in order to distribute your autosplitter to others through LiveSplit.
 
 
 
