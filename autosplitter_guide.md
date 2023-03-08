@@ -53,9 +53,13 @@ Example 1: you scan for a 4-Byte value and add a result to the addresslist, it m
 
 [Add screenshot]
 
-Example 2: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the value. This may be because the String's length is too small. If it shows String[0], it's displaying 0 characters. Double-click the type value and change Length to something large (like 120).
+Example 2: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the full value or perhaps any value at all. This may be because the String's length is too small. String[14] indicates only 14 characters are being displayed. String[0], it's displaying 0 characters. Double-click the value and change Length to something large (like 80).
 
-[Add screenshot]
+![short string](https://user-images.githubusercontent.com/104397629/223780216-fdd9f981-56b4-4012-b311-0d3a46722df0.PNG)
+![edit string type](https://user-images.githubusercontent.com/104397629/223780243-c6626a59-2cde-45a1-990e-1ff6b20e1539.PNG)
+![edit string type post](https://user-images.githubusercontent.com/104397629/223780262-278f11f8-b56a-4353-8b77-99549f0d5e02.PNG)
+![string type edited](https://user-images.githubusercontent.com/104397629/223780290-6567d1aa-f275-4b45-b6cc-72bb0ad6ab87.PNG)
+
 
 
 ## What Values to Search For
@@ -66,12 +70,23 @@ For load removal, you'll want to find a true/false value (boolean) that gets set
 
 For basic autostart and autosplit, 
 
+## Finding Current Level Name
+An address holding the name of the current level can be very useful for auto start and split for games that feature different levels.
 
-Find level names:
-Depends on what engine the game is created in.
+Level names can be stored in many ways and it varies game to game and also based on what game engine the game was created with.
+
+In the best case, scanning for the level name displayed in-game will yield a useable address. 
+
+StarCraft II (Havok engine) is an example of this. Enter the level "Liberation Day", scan for "Liberation Day", enter the level "The Devil's Playground", then find addresses whose value changed to "The Devil's Playground":
+
+![ce - enter devils playground](https://user-images.githubusercontent.com/104397629/223781359-9b7e3173-9407-4694-80ad-a3a83986570c.PNG)
+
+Some games may use a different name in the code than what is displayed in the level select screen though.
+
+Desperados III (Unity engine) 
 
 Unity Engine:
-* Scan for String where value = "Assets/Scenes/"
+* Scan for String with value "Assets/Scenes/"
 * Add all addresses found to the addresslist.
 * Edit the Type of all these addresses to String with a very large length so that you can see the whole value (e.g. 120)
 * Level file names will be shown as [LEVEL NAME].unity
