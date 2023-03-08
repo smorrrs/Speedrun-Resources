@@ -66,7 +66,10 @@ Unity Engine:
 * Level file names will be shown as [LEVEL NAME].unity
 
 
-## Pointer scan: 
+## How to permanently find values: 
+Most games change the memory address it stores a given value at every time you boot up the game, sometimes every time you boot up an individual level, meaning a value address you find will become invalid if you quit and restart the game. 
+
+However, we can find something called a pointer that will lead us to the right memory address even across sessions by performing a pointer scan.
 
 Watch GH105
 https://www.youtube.com/watch?v=rBe8Atevd-4&t=332s
