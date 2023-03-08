@@ -49,9 +49,11 @@ Watch these three videos from the Guided Hacking 100 series to learn how to scan
 Important Note: When adding an address to the addresslist, you may need to change its Type in order to see its value.
 
 Example 1: you scan for a 4-Byte value and add a result to the addresslist, it may get added as type String. Double click this type value and change the Type to 4-Bytes
+
 [Add screenshot]
 
-Example 2: you can for a String value and add results to addresslist. They're added as String values, but you can't see the value. This may be because the String's length is too small. If it shows String[0], it's displaying 0 characters. Double-click the type value and change Length to something large (like 120).
+Example 2: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the value. This may be because the String's length is too small. If it shows String[0], it's displaying 0 characters. Double-click the type value and change Length to something large (like 120).
+
 [Add screenshot]
 
 
