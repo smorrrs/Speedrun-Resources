@@ -48,11 +48,13 @@ Watch these three videos from the Guided Hacking 100 series:
 
 
 ## What Values to Search For
-The values you need to find depend on 
+The values you need to find depend on what functions you hope to implement and what game you're working with.
 
-For a simple load remover, 
+For load removal, you'll want to find a true/false value (boolean) that gets set to true when the game is loading and gets sets to false when the game is not loading.
+* This will often be a Byte value with value 1 while loading and value 0 while not loading.
 
 For basic autostart and autosplit, 
+
 
 Find level names:
 Depends on what engine the game is created in.
