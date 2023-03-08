@@ -1,6 +1,5 @@
 # Screen Capture Guide
-A guide for recording gameplay or other activity on a computer or other display.
-
+A guide for recording gameplay.
 
 # Requirements 
 There are many options for screen capture software. This guide will cover using OBS Studio, a very popular option.
