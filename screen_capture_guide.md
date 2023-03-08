@@ -17,15 +17,27 @@ Full Screen capture
 
 Windowed Capture
 
-LiveSplit Timer capture
-
-Input Capture
-
-Microphone capture
 
 
 # Console Game Recording
 
 Capture card
 
+Must use a modern TV with an HDMI input.
+
+For modern consoles that connect to a TV with an HDMI cable, instead of connecting the console directly to the TV, you'll attach the console to the capture card (HDMI to HDMI cable) then attach the capture card to the TV (HDMI to HDMI cable). Another cable will attach your capture card to a computer which will be running the screen capture software.
+
+For old consoles that don't use HDMI, you'll additionally need a converter from its cable type to HDMI.
+
+
 Screen capture 
+
+
+# Capturing Extras
+
+LiveSplit Timer capture
+
+Keyboard/Controller Capture
+
+Microphone capture
+
