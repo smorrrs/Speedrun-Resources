@@ -6,7 +6,7 @@ This guide will focus on the specific, comprehensive steps to write an autosplit
 
 
 # Functions of a Splitter
-An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values. 
+An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values to update your timer.
 
 You can implement several capabilities for a LiveSplit timer with autosplitter script. The basic ones:
 
