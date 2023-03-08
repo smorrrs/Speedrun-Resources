@@ -84,8 +84,6 @@ However, we can find something called a pointer that will lead us to the right m
 
 Watch [GH105](https://www.youtube.com/watch?v=rBe8Atevd-4)
 
-important!: change type
-
 
 # Writing an Autosplitter Script
 Autosplitters are created as a script written in a simple programming language called ASL (Auto Splitter Language), which is a file that uses a .asl extension.
