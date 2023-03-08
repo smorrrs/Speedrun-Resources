@@ -1,7 +1,7 @@
 # Autosplitter Creation Guide
 A guide for creating a LiveSplit autosplitter/ load remover for a PC game.
 
-This guide will focus on the steps to write an autosplitter script.
+This guide will focus on the specific, comprehensive steps to write an autosplitter script.
 [This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available to others, making a splitter for a console game, etc.)
 
 
