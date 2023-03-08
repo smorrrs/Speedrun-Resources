@@ -41,7 +41,7 @@ You'll need to have a GitHub account in order to distribute your autosplitter to
 
 ## How to Find Values:
 
-Watch these three videos from the Guided Hacking 100 series: 
+Watch these three videos from the Guided Hacking 100 series to learn how to scan for values in Cheat Engine: 
 * [GH102](https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3)
 * [GH103](https://youtu.be/cJLbFh_74wg)
 * [GH104](https://youtu.be/NaGJXChkwGc)
@@ -66,13 +66,12 @@ Unity Engine:
 * Level file names will be shown as [LEVEL NAME].unity
 
 
-## How to permanently find values: 
+## How to Permanently Find Values: 
 Most games change the memory address it stores a given value at every time you boot up the game, sometimes every time you boot up an individual level, meaning a value address you find will become invalid if you quit and restart the game. 
 
 However, we can find something called a pointer that will lead us to the right memory address even across sessions by performing a pointer scan.
 
-Watch GH105
-https://www.youtube.com/watch?v=rBe8Atevd-4&t=332s
+Watch [GH105](https://www.youtube.com/watch?v=rBe8Atevd-4)
 
 important!: change type
 
