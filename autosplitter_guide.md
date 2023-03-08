@@ -25,7 +25,7 @@ See [link]
 
 
 ## Cheat Engine
-Cheat Engine is a tool that allows you to view values in memory used by a given process (e.g. a game). It also allows you to edit these values (hence the name "cheat engine") but we don't need to do that.
+Cheat Engine is a tool that allows you to view values in memory used by a given process (e.g. a game). It also allows you to edit these values (hence the name "cheat") but we don't need to do that.
 
 Download Cheat Engine directly from its GitHub repo: https://github.com/cheat-engine/cheat-engine 
 
