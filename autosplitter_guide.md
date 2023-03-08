@@ -87,6 +87,11 @@ Address variable: [picture]
 ![Autosplitter_File_Pointer_Specification](https://user-images.githubusercontent.com/104397629/223018810-32d32c06-0a50-47c6-8a14-b254fa33e94c.PNG)
 
 
+# Testing Your Autosplitter
+
+Game timer setting
+
+
 # Additional Resources
 
 Discord for asking questions (and more tutorials): https://discord.gg/N6wv8pW
