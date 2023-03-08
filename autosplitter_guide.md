@@ -42,8 +42,8 @@ You'll need to have a GitHub account in order to distribute your autosplitter to
 ## How to Find Values:
 
 Watch these three videos from the Guided Hacking 100 series: 
-* GH102: https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3 
-* GH103: 
+* [GH102](https://www.youtube.com/watch?v=_THZIUELKrw&list=PLt9cUwGw6CYHfDY-vj1AFxfWCd5r9bPd4&index=3)
+* [GH103](https://youtu.be/cJLbFh_74wg)
 * GH104: 
 
 
