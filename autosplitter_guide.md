@@ -102,6 +102,12 @@ Address variable: [picture]
 Game timer setting
 
 
+# Sharing Your Autosplitter
+You can add a link to your autosplitter file to LiveSplit's list of autosplitter files, allowing people to access your autosplitter through LiveSplit itself.
+
+See this page [link]
+
+
 # Additional Resources
 
 Discord for asking questions (and more tutorials): https://discord.gg/N6wv8pW
