@@ -6,7 +6,7 @@ There are many options for screen capture software. This guide will cover using 
 
 Download site: [OBS Studio](https://obsproject.com/)
 
-For PC games, this software is all you'll need apart from your computer and the game software itself.
+For PC games, this software is all you'll need apart from your computer and the game itself.
 
 For console games, you'll additionally need to purchase a capture card, which reads the HDMI feed from your console to your TV (or other display) and sends it to your computer to get recorded by the recording software.
 
