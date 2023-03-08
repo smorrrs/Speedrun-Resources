@@ -77,7 +77,7 @@ https://www.youtube.com/watch?v=rBe8Atevd-4&t=332s
 important!: change type
 
 
-# Writing an ASL File
+# Writing an Autosplitter Script
 Autosplitters are created as a script written in a simple programming language called ASL (Auto Splitter Language), which is a file that uses a .asl extension.
 
 
