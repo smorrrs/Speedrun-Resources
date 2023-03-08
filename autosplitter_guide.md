@@ -83,13 +83,19 @@ StarCraft II (Havok engine) is an example of this. Enter the level "Liberation D
 
 Some games may use a different name in the code than what is displayed in the level select screen though.
 
-Desperados III (Unity engine) 
+
 
 Unity Engine:
 * Scan for String with value "Assets/Scenes/"
 * Add all addresses found to the addresslist.
 * Edit the Type of all these addresses to String with a very large length so that you can see the whole value (e.g. 120)
 * Level file names will be shown as [LEVEL NAME].unity
+
+Desperados III (Unity engine) has a level displayed as "Byers Pass" and "Flagstone" in-game, but scanning for level files we see that the internal level names are "lvl_train_00_easy" and "level_town_00_hard", and we have to deduce which name lines up with which level.
+
+![byers pass](https://user-images.githubusercontent.com/104397629/223785475-aef89b8d-a797-40f1-85c0-2869c67e2e63.png)
+![d3 internal level names](https://user-images.githubusercontent.com/104397629/223785524-4d9398ed-bdc1-4e51-bf49-8a6fdeedac55.PNG)
+
 
 
 ## How to Permanently Find Values: 
