@@ -37,9 +37,9 @@ See [link]
 
 
 ## Cheat Engine
-Cheat Engine is a tool that allows you to view values in memory used by a given process (e.g. a game). It also allows you to edit these values (hence the name "cheat") but we don't need that.
+Cheat Engine is a tool that allows you to view values in memory used by a given process (e.g. a game). It also allows you to edit these values (hence the name "Cheat" Engine) but we don't need that functionality.
 
-Download Cheat Engine directly from its [GitHub repo](https://github.com/cheat-engine/cheat-engine)
+Download Cheat Engine directly from its [GitHub repo](https://github.com/cheat-engine/cheat-engine).
 
 DO NOT download Cheat Engine from anywhere else as some websites package it with poopware.
 
@@ -140,9 +140,9 @@ Game timer setting
 
 
 # Sharing Your Autosplitter
-You can add a link to your autosplitter file to LiveSplit's list of autosplitter files, allowing people to access your autosplitter through LiveSplit itself.
-
-See the **Adding an Auto Splitter** section of [this page](https://github.com/LiveSplit/LiveSplit.AutoSplitters#adding-an-auto-splitter).
+1. [Create](https://github.com/new) a GitHub repository. Add a **Creative Commons Zero v1.0 Universal** license during creation, or you can add it later.
+2. Upload your splitter file to this repository.
+3. Add a link to your splitter file in LiveSplit's official list, allowing people to access your autosplitter through LiveSplit itself. See the **Adding an Auto Splitter** section of [this page](https://github.com/LiveSplit/LiveSplit.AutoSplitters#adding-an-auto-splitter).
 
 After an autosplitter link is merged into the central repository, it should become available when you choose its associated game in LiveSplit.
 
