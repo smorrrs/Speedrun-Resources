@@ -7,12 +7,13 @@ This guide will focus on the specific, comprehensive steps to write an autosplit
 # Functions of a Splitter
 An autosplitter works by reading the values stored by your game in your computer's memory and executing logic based on these values to affect your timer.
 
-You can implement several capabilities for a LiveSplit timer with autosplitter script. The basic ones:
+You can implement several capabilities for a LiveSplit timer with autosplitter script:
 
-* Auto start: Automatically begin a timer (e.g. the timer starts when the player begins the first level of the game)
-* Auto split: Automatically split, which means ending timing for one section and beginning timing for the next section (e.g. when the player starts the second level, time counted toward level 1 ends and time counted toward level 2 begins)
-* Auto end: Automatically end a timer. Functionally this is the same as split and it will often not be distinguished from such.
-* Load removal: Automatically pause the timer whenever the game is on a loading screen and resume the timer afterward
+* **Auto start**: Automatically begin a timer (e.g. the timer starts when the player begins the first level of the game)
+* **Auto split**: Automatically split, which means ending timing for one section and beginning timing for the next section (e.g. when the player starts the second level, time counted toward level 1 ends and time counted toward level 2 begins)
+* **Auto end**: Automatically end a timer. Functionally this is a special case of splitting and it will generally not be distinguished from such.
+* **Auto reset**: Automatically clear a timer, preparing for a restart.
+* **Load removal**: Automatically pause the timer whenever the game is on a loading screen and resume the timer afterward
 
 
 # Required Programming Knowledge
