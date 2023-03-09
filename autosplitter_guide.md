@@ -19,14 +19,14 @@ You can implement several capabilities for a LiveSplit timer with autosplitter s
 
 # Required Programming Knowledge
 Creating an autosplitter requires very basic programming in the C# programming language. At a minimum you'll want to understand: 
-* [variables](https://www.w3schools.com/cs/cs_variables.php) 
-* [boolean expressions](https://www.w3schools.com/cs/cs_booleans.php)
-* [if-else statements](https://www.w3schools.com/cs/cs_conditions.php)
-* [return statements](https://www.w3schools.com/cs/cs_method_parameters_return.php), which are used for [methods](https://www.w3schools.com/cs/cs_methods.php) but we don't need to worry about parameters or anything related to classes.
+* [Variables](https://www.w3schools.com/cs/cs_variables.php) 
+* [Boolean expressions](https://www.w3schools.com/cs/cs_booleans.php)
+* [If-else statements](https://www.w3schools.com/cs/cs_conditions.php)
+* [Return statements](https://www.w3schools.com/cs/cs_method_parameters_return.php), which are used for [methods](https://www.w3schools.com/cs/cs_methods.php) but we don't need to worry about parameters or anything related to classes.
 
-Note: you won't be writing full C# programs, just snippets of C#-like logic within the simple Auto Splitter Language used for writing autosplitter scripts.
+Note: you won't have to write full C# programs, just snippets of C#-like logic within the simple Auto Splitter Language used for writing autosplitter scripts.
 
-More advanced knowledge of coding and software is helpful to have, but not strictly necessary. That being said some games require more advanced knowledge than others.
+More advanced knowledge of C# coding and software in general is helpful to have, but not strictly necessary. That being said some games require more advanced knowledge than others.
 
 
 # Required Software
@@ -142,9 +142,9 @@ Game timer setting
 
 
 # Sharing Your Autosplitter
-1. [Create](https://github.com/new) a GitHub repository with a **Creative Commons Zero v1.0 Universal** license. You can also add this license to an existing repository if you're not creating a new one or created a new one without adding a license.
+1. [Create](https://github.com/new) a GitHub repository with a license. The **Creative Commons Zero v1.0 Universal** [license](https://choosealicense.com/licenses/cc0-1.0/) is recommended, but you can choose another if you wish. You can also add this license to an existing repository if you're not creating a new one or created a new one without adding a license. 
 2. Upload your splitter file to this repository.
-3. Add a link to your splitter file in LiveSplit's official list, allowing people to access your autosplitter through LiveSplit itself. See the **Adding an Auto Splitter** section of [this page](https://github.com/LiveSplit/LiveSplit.AutoSplitters#adding-an-auto-splitter).
+3. Add a link to your splitter file's location in LiveSplit's official list, allowing people to access your autosplitter through LiveSplit itself. See the **Adding an Auto Splitter** section of [this page](https://github.com/LiveSplit/LiveSplit.AutoSplitters#adding-an-auto-splitter).
 
 After an autosplitter link is merged into the central repository, it should become available when you choose its associated game in LiveSplit.
 
