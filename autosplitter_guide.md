@@ -1,8 +1,7 @@
 # Autosplitter Creation Guide
 A guide for creating a LiveSplit autosplitter/ load remover for a PC game.
 
-This guide will focus on the specific, comprehensive steps to write an autosplitter script.
-[This page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) has good information about other aspects of autosplitters (making them available to others, making a splitter for a console game, etc.)
+This guide will focus on the specific, comprehensive steps to write an autosplitter script, centralizing information I gained from watching many different tutorials plus knowledge gained from my own experience. The [LiveSplit Autosplitters page](https://github.com/LiveSplit/LiveSplit.AutoSplitters) is a good place to go for additional information.
 
 
 # Functions of a Splitter
@@ -14,6 +13,18 @@ You can implement several capabilities for a LiveSplit timer with autosplitter s
 * Auto split: Automatically split, which means ending timing for one section and beginning timing for the next section (e.g. when the player starts the second level, time counted toward level 1 ends and time counted toward level 2 begins)
 * Auto end: Automatically end a timer. Functionally this is the same as split and it will often not be distinguished from such.
 * Load removal: Automatically pause the timer whenever the game is on a loading screen and resume the timer afterward
+
+
+# Required Programming Knowledge
+Creating an autosplitter requires very basic programming in the C# programming language. At a minimum you'll want to understand: 
+* [variables](https://www.w3schools.com/cs/cs_variables.php) 
+* [boolean expressions](https://www.w3schools.com/cs/cs_booleans.php)
+* [if-else statements](https://www.w3schools.com/cs/cs_conditions.php)
+* [return statements](https://www.w3schools.com/cs/cs_method_parameters_return.php), which are used for [methods](https://www.w3schools.com/cs/cs_methods.php) but we don't need to worry about parameters or anything related to classes.
+
+Note: you won't be writing full C# programs, just snippets of C#-like logic within the simple Auto Splitter Language used for writing autosplitter scripts.
+
+More advanced knowledge of coding and software is helpful to have, but not strictly necessary. That being said some games require more advanced knowledge than others.
 
 
 # Required Software
@@ -109,6 +120,8 @@ Watch [GH105](https://www.youtube.com/watch?v=rBe8Atevd-4)
 # Writing an Autosplitter Script
 Autosplitters are created as a script written in a simple programming language called ASL (Auto Splitter Language), which is a file that uses a .asl extension.
 
+Description of ASL https://github.com/LiveSplit/LiveSplit.AutoSplitters#state-descriptors 
+
 
 
 Address variable: [picture]
@@ -117,6 +130,11 @@ Address variable: [picture]
 
 
 # Testing Your Autosplitter
+1. Open LiveSplit
+2. If you have an existing setup for the game of interest, open it. Otherwise close any other games' setup.
+3. Right click the LiveSplit window > Edit Layout > click "+" > Add a Scripted Auto Splitter
+4. Upload your file 
+5. Some actions are toggleable. 
 
 Game timer setting
 
@@ -124,7 +142,11 @@ Game timer setting
 # Sharing Your Autosplitter
 You can add a link to your autosplitter file to LiveSplit's list of autosplitter files, allowing people to access your autosplitter through LiveSplit itself.
 
-See this page [link]
+See the **Adding an Auto Splitter** section of [this page](https://github.com/LiveSplit/LiveSplit.AutoSplitters#adding-an-auto-splitter).
+
+After an autosplitter link is merged into the central repository, it should become available when you choose its associated game in LiveSplit.
+
+Changing where you store the autosplitter will break the link stored in the LiveSplit repo, meaning your autosplitter will stop working, unless the link is also updated.
 
 
 # Additional Resources
