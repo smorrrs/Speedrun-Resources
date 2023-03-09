@@ -140,7 +140,7 @@ Game timer setting
 
 
 # Sharing Your Autosplitter
-1. [Create](https://github.com/new) a GitHub repository. Add a **Creative Commons Zero v1.0 Universal** license during creation, or you can add it later.
+1. [Create](https://github.com/new) a GitHub repository with a **Creative Commons Zero v1.0 Universal** license. You can also add this license to an existing repository if you're not creating a new one or created a new one without adding a license.
 2. Upload your splitter file to this repository.
 3. Add a link to your splitter file in LiveSplit's official list, allowing people to access your autosplitter through LiveSplit itself. See the **Adding an Auto Splitter** section of [this page](https://github.com/LiveSplit/LiveSplit.AutoSplitters#adding-an-auto-splitter).
 
