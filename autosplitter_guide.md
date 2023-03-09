@@ -60,13 +60,13 @@ Watch these three videos from the Guided Hacking 100 series to learn how to scan
 * [GH103](https://youtu.be/cJLbFh_74wg)
 * [GH104](https://youtu.be/NaGJXChkwGc)
 
-Important Note: When adding an address to the addresslist, you may need to change its Type in order to see its value.
+**Important Note**: When adding an address to the addresslist, you may need to change its Type in order to see its value.
 
 Example 1: you scan for a 4-Byte value and add a result to the addresslist, it may get added as type String. Double click this type value and change the Type to 4-Bytes
 
 [Add screenshot]
 
-Example 2: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the full value or perhaps any value at all. This may be because the String's length is too small. String[14] indicates only 14 characters are being displayed. String[0], it's displaying 0 characters. Double-click the value and change Length to something large (like 80).
+Example 2: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the full value or perhaps any value at all because the String's length is too small. String[14] indicates only 14 characters are being displayed. Double-click the value and change Length to something large (like 80).
 
 ![short string](https://user-images.githubusercontent.com/104397629/223780216-fdd9f981-56b4-4012-b311-0d3a46722df0.PNG)
 ![edit string type](https://user-images.githubusercontent.com/104397629/223780243-c6626a59-2cde-45a1-990e-1ff6b20e1539.PNG)
@@ -90,13 +90,11 @@ Level names can be stored in many ways and it varies game to game and also based
 
 In the best case, scanning for the level name displayed in-game will yield a useable address. 
 
-StarCraft II (Havok engine) is an example of this. Enter the level "Liberation Day", scan for "Liberation Day", enter the level "The Devil's Playground", then find addresses whose value changed to "The Devil's Playground":
+StarCraft II (Havok engine) is an example of this. Enter the level "Liberation Day" in game, scan for "Liberation Day" in Cheat Engine, enter the level "The Devil's Playground" in game, then find addresses whose value changed to "The Devil's Playground" in Cheat Engine:
 
 ![ce - enter devils playground](https://user-images.githubusercontent.com/104397629/223781359-9b7e3173-9407-4694-80ad-a3a83986570c.PNG)
 
-Some games may use a different name in the code than what is displayed in the level select screen though.
-
-
+Some games may use a different name in the code than what is displayed in the level select screen though. One trick to find these is to know where its game engine stores level files.
 
 Unity Engine:
 * Scan for String with value "Assets/Scenes/"
@@ -104,7 +102,7 @@ Unity Engine:
 * Edit the Type of all these addresses to String with a very large length so that you can see the whole value (e.g. 120)
 * Level file names will be shown as [LEVEL NAME].unity
 
-Desperados III (Unity engine) has a level displayed as "Byers Pass" and "Flagstone" in-game, but scanning for level files we see that the internal level names are "lvl_train_00_easy" and "level_town_00_hard", and we have to deduce which name lines up with which level.
+Desperados III (Unity engine) has a level displayed as "Byers Pass" and "Flagstone" in-game, but scanning for level files we see internal level names like "lvl_train_00_easy" and "level_town_00_hard", and we have to deduce which name lines up with which level.
 
 ![byers pass](https://user-images.githubusercontent.com/104397629/223785475-aef89b8d-a797-40f1-85c0-2869c67e2e63.png)
 ![d3 internal level names](https://user-images.githubusercontent.com/104397629/223785524-4d9398ed-bdc1-4e51-bf49-8a6fdeedac55.PNG)
