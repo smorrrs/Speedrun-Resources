@@ -102,7 +102,7 @@ Unity Engine:
 * Edit the Type of all these addresses to String with a very large length so that you can see the whole value (e.g. 120)
 * Level file names will be shown as [LEVEL NAME].unity
 
-Desperados III (Unity engine) has level names like "Byers Pass" and "Flagstone" displayed in-game, but scanning for level files we see internal level names like "lvl_train_00_easy" and "lvl_town_00_hard", and we have to deduce which name lines up with which level.
+Desperados III (Unity engine) has level names like "Byers Pass" and "Flagstone" displayed in-game, but by scanning for Unity level files we see internal level names like "lvl_train_00_easy" and "lvl_town_00_hard", and we have to deduce which name lines up with which level.
 
 ![byers pass](https://user-images.githubusercontent.com/104397629/223785475-aef89b8d-a797-40f1-85c0-2869c67e2e63.png)
 ![d3 internal level names](https://user-images.githubusercontent.com/104397629/223785524-4d9398ed-bdc1-4e51-bf49-8a6fdeedac55.PNG)
@@ -115,6 +115,8 @@ Most games change the memory address it stores a given value at every time you b
 However, we can find something called a pointer that will lead us to the right memory address even across sessions by performing a pointer scan.
 
 Watch [GH105](https://www.youtube.com/watch?v=rBe8Atevd-4)
+
+Important Note: When you double-click a pointer scan result to add it to your addresslist, it will be added with String[0] as its Type. Change this as appropriate in order to see its value.
 
 
 # Writing an Autosplitter Script
