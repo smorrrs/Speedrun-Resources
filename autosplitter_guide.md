@@ -34,8 +34,7 @@ All tools here are free.
 
 
 ## LiveSplit
-
-See [link]
+[LiveSplit](https://livesplit.org/)
 
 
 ## Cheat Engine
@@ -60,13 +59,9 @@ Watch these three videos from the Guided Hacking 100 series to learn how to scan
 * [GH103](https://youtu.be/cJLbFh_74wg)
 * [GH104](https://youtu.be/NaGJXChkwGc)
 
-**Important Note**: When adding an address to the addresslist, you may need to change its Type in order to see its value.
+**Important Note**: When adding a String address to the addresslist, its Length is determined by the length of the search string. If its value changes to a longer string, you will need to increase the address's Length in order to see the full value.
 
-Example 1: you scan for a 4-Byte value and add a result to the addresslist, it may get added as type String. Double click this type value and change the Type to 4-Bytes
-
-[Add screenshot]
-
-Example 2: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the full value or perhaps any value at all because the String's length is too small. String[14] indicates only 14 characters are being displayed. Double-click the value and change Length to something large (like 80).
+Example: you scan for a String value and add results to addresslist. They're added as String values, but you can't see the full value or perhaps any value at all because the String's length is too small. String[14] indicates only 14 characters are being displayed. Double-click the value and change Length to something large (like 80).
 
 ![short string](https://user-images.githubusercontent.com/104397629/223780216-fdd9f981-56b4-4012-b311-0d3a46722df0.PNG)
 ![edit string type](https://user-images.githubusercontent.com/104397629/223780243-c6626a59-2cde-45a1-990e-1ff6b20e1539.PNG)
@@ -116,7 +111,11 @@ However, we can find something called a pointer that will lead us to the right m
 
 Watch [GH105](https://www.youtube.com/watch?v=rBe8Atevd-4)
 
-Important Note: When you double-click a pointer scan result to add it to your addresslist, it will be added with String[0] as its Type. Change this as appropriate in order to see its value.
+**Important Note**: When you double-click a pointer scan result to add it to your addresslist, it will be added with String[0] as its Type. Change this as appropriate in order to see its value.
+
+Example: you scan for a 4-Byte value and add a result to the addresslist, it may get added as type String. Double click this type value and change the Type to 4-Bytes
+
+[Add screenshot]
 
 
 # Writing an Autosplitter Script
