@@ -34,7 +34,7 @@ All tools here are free.
 
 
 ## LiveSplit
-[LiveSplit](https://livesplit.org/)
+[LiveSplit Download](https://livesplit.org/)
 
 
 ## Cheat Engine
