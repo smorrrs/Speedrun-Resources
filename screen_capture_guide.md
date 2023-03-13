@@ -10,12 +10,16 @@ For PC games, this software is all you'll need apart from your computer and the 
 
 For console games, you'll additionally need to purchase a capture card, which reads the HDMI feed from your console to your TV (or other display) and sends it to your computer to get recorded by the recording software.
 
+# Basic Setup
+[Tutorial](https://www.youtube.com/watch?v=Muk9LfEWHeU&t=33)
+
 
 # PC Game Recording
+What Source to use for capturing game footage depends on the type of game:
 
-Full Screen capture
+Most games are full screen applications by default. For these, select **Game Capture** as the source. With this setting, OBS will detect any full screen applications that open up (with a delay of several seconds).
 
-Windowed Capture
+Some games, especially games run within emulators, aren't full screen. For these, select **Window Capture** then select the game's window (the game must be running for it to appear). 
 
 
 
