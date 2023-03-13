@@ -1,6 +1,8 @@
 # Screen Capture Guide
 A guide for recording gameplay.
 
+
+# Screen Capture Software
 There are many options for screen capture software. This guide will cover using OBS Studio, a very popular option.
 
 [OBS Studio Download Site](https://obsproject.com/)
