@@ -1,7 +1,7 @@
 # Intro to Speedrunning
 Speedrunning is playing video games with a goal of completing them as quickly as possible.
 
-Speedrunning often manifests as an ongoing global competition of players trying to achieve the fastest ever time for a game, but it can also be done in simultaneous races with a group of competitors, done in private as challenge to achieve one's personal best time, or done on stream to showcase a speedrun for entertainment.
+Speedrunning often manifests as an ongoing global competition of players trying to achieve the fastest ever time for a game, but it can also be done in simultaneous races with a group of competitors, done on one's own as challenge to achieve one's personal best time, or done on stream to showcase a speedrun for entertainment.
 
 
 # Rules & Categories
