@@ -6,14 +6,14 @@ Speedrunning often manifests as an ongoing global competition of players trying 
 # Components of a Speedrun
 There are three main phases of developing a speedrun:
 
-**Game Knowledge**: Understanding a game's behavior. For example:
+**(1) Game Knowledge**: Understanding a game's behavior. For example:
 * Knowing all ways to obtain a particular item 
 * Knowing a way to manipulate an NPC's behavior
 * Knowing a glitch to get past an obstacle
 
-**Routing**: Planning a path and set of strategies to use during a run of the game leveraging game knowledge.
+**(2) Routing**: Planning a path and set of strategies to use during a run of the game leveraging game knowledge.
 
-**Execution**: Competitively performing a route.
+**(3) Execution**: Competitively performing a route.
 
 All three components play a part in getting fast times. Some people may engage with all three phases, or just one or two and rely on other people for the rest. 
 
