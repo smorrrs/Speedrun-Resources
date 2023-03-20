@@ -76,7 +76,10 @@ The values you need to find depend on what functions you hope to implement and w
 For load removal, you'll want to find a true/false value (boolean) that gets set to true when the game is loading and gets sets to false when the game is not loading.
 * This will often be a Byte value with value 1 while loading and value 0 while not loading.
 
-For basic autostart and autosplit, 
+For basic autostart and autosplit, it depends on how you want to break up your run into sections. 
+* If the game features different levels, splitting when you move from one level to another is a popular choice. For this you'll want to find level names, more info in the section below
+* You could also split on things like a certain item being obtained, or a certain boss being defeated.
+
 
 ## Finding Current Level Name
 An address holding the name of the current level can be very useful for auto start and split for games that feature different levels.
