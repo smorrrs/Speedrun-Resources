@@ -4,18 +4,23 @@ Speedrunning is playing video games with a goal of completing them as quickly as
 Speedrunning often manifests as an ongoing global competition of players trying to achieve the fastest ever time for a game, but it can also be done in simultaneous races with a group of competitors, done on one's own as challenge to achieve one's personal best time, or done on stream to showcase a speedrun for entertainment.
 
 # Components of a Speedrun
-There are three main phases of developing a speedrun:
+There are four main phases of developing a speedrun:
 
 **(1) Game Knowledge**: Understanding a game's behavior. For example:
 * Knowing all ways to obtain a particular item 
-* Knowing a way to manipulate an NPC's behavior
-* Knowing a glitch to get past an obstacle
+* Knowing how NPCs react to various stimuli
+* Knowing a glitch that will displace your character's position, moving them without collision
 
-**(2) Routing**: Planning a path and set of strategies to use during a run of the game leveraging game knowledge.
+**(2) Speed Tech**: Developing general techniques for moving quickly. For example:
+* Using a certain pattern of jumping/rolling/strafing toove as quickly as possible 
+* Performing a certain series of actions to manipulate an enemy to miss their attacks or fall off a ledge
+* Using a character displacement glitch to pass through a certain wall
 
-**(3) Execution**: Competitively performing a route.
+**(3) Routing**: Planning a specific path and set of strategies to use during a run of the game leveraging game knowledge and tech.
 
-All three components play a part in getting fast times. Some people may engage with all three phases, or just one or two and rely on other people for the rest. 
+**(4) Execution**: Competitively performing a route.
+
+All components play a part in getting fast times. Some people may engage with all phases, while others just do one or two and rely on other people for the rest. 
 
 
 # Rules & Categories
