@@ -38,14 +38,14 @@ The community of speedrunners for each game establishes sets of rules to follow 
 
 What could be considered a glitch or a major glitch is subjective. What things are included or not should be defined in the ruleset for the category.
 
-There are several things that are widely [prohibited](https://www.speedrun.com/knowledgebase/site-rules) across all categories of all games:
+There are several things that are [prohibited](https://www.speedrun.com/knowledgebase/site-rules) by default for all games:
 * Modifying game files
 * Splicing gameplay from multiple playthroughs to appear as a single playthrough
 * Playing at a slowed speed then speeding up the footage 
 * Having inputs done by anything or anyone other than the listed player (e.g. programmed inputs)
 * Etc.
 
-Submitting a run with a prohibited element is cheating, and doing this intentionally is considered a serious offense. The unfortunate reality that some people choose to cheat entails that run times will need to have a certain level of proof and verification as determined by the community. Most game leaderboards require a video recording of a reasonable quality, but may require more.
+Submitting a run with a prohibited element is cheating, and doing this intentionally is considered a serious offense. The unfortunate reality that some people choose to cheat entails that run times will need a certain level of proof and verification as determined by the community. Most game leaderboards just require a video recording of a reasonable quality, but may require more.
 
 These rules just apply to competitions between players for standing on leaderboards. Use any ruleset you think will be the most fun when you're running on your own. 
 
