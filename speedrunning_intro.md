@@ -71,41 +71,49 @@ TASes have their own [site](https://www.tasvideos.org).
 # Challenge Runs
 Speedrunning is just one of many ways to breathe new life into a game with a self-imposed challenge. Here are some other types of challenges:
 
+
 ## High Score
 Achieve the highest score possible in a game. This generally only applies to games that feature a score, which tend to be older games.
 
-Examples
-* StarFox 64 - Highest game score
-* Pokemon Snap - Highest photo rating for a given pokemon (e.g. Porygon)
+Examples:
+* StarFox 64, High Score
+* Pokemon Snap, High Score - Highest photo rating for a given pokemon (e.g. Porygon)
 
 
 ## Low%
-This is a very broad term for any challenge to achieve the least amount possible while still completing a game. 
+This is a very broad term for any challenge to achieve the least amount possible while still completing a game. This focuses around minimizing one parameter, whether it's a score or the number of times a particular action is taken.
 
-Examples
+Examples:
 * Banjo-Kazooie, Minimum Jumps
-* Super Mario Odyssey, Mininum Captures
+* Sly Cooper, Minimum Coins
 
 
 ## No Hit
 Complete a game without taking any damage.
 
-Example
+Example:
 * Dark Souls, No Hit
 
 
 ## Hardcore Difficulty
 Complete a game with the hardest difficulty settings possible.
 
-Example
+Example:
 * Halo 2, LASO - Legendary difficulty, all skulls on
 * Starcraft II, 1v7 Insane AI - Beat a multiplayer game against 7 Insane difficulty AI all teamed up against you.
+
+
+## Trick Shot
+Perform a sequence of actions that results in some cool effect. 
+
+Example:
+* Legend of Zelda: Breath of the Wild, Trick Shots
 
 
 ## Mods
 Community-created mods are created for games to change some aspect of them.
 
-Example
+Example:
 * Legend of Zelda: Ocarina of Time, Randomizer - The contents of every chest in the game are randomly swapped around
 
 
