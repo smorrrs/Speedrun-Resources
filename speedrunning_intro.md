@@ -121,9 +121,9 @@ Example:
 Any of the above challenges can be made into a speedrun category. Runs are ranked firstly by the challenge criteria, and secondly by time taken.
 
 For example, consider that there are 3 submitted runs for Minimum Captures in Super Mario Odyssey:
-* A. 5 captures used, 3 hours
-* B. 5 captures used, 2 hours
-* C. 4 captures used, 8 hours
+* A) 5 captures used, 3 hours
+* B) 5 captures used, 2 hours
+* C) 4 captures used, 8 hours
 
 The ranking of these runs will be:
 1. C
