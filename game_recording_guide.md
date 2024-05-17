@@ -1,4 +1,4 @@
-# Screen Capture Guide
+# Game Recording Guide
 A guide for recording gameplay.
 
 
