@@ -168,7 +168,7 @@ Note: Gem game is randomized. Strategies:
 * Use parchment on beast
 * Save king
   - Shift into bear
-  - Pull king
+  - Push king
   - Invoke crystal ball
   - Skip through dialogue
 * Go right up stairs
