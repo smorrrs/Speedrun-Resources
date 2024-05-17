@@ -10,10 +10,10 @@ Spamming clicks to move will move your character faster.
 
 # Routing Tips
 
-## Signet Teleport
+### Signet Teleport
 Using the signet ring to teleport to the market is almost always a faster way to get to your next destination whenever you're done with an area compared to leaving normally.
 
-## Crystal Ball
+### Crystal Ball
 The crystal ball can be used once to resolve one of many events throughout the game without the required item:
 * Open the ward below the well (no other item can do this)
 * Restore king's soul without the soul egg
@@ -35,7 +35,7 @@ Any%: Use it to heal the king. Skips the soul egg, visiting the spirit plane, an
 Bad Ending: Use it on the catacomb beast. Skips the parchment, healing Ilanie, and making the 2nd spirit bundle.
 Low%: Both the Any% and Bad Ending routes yield the lowest known score of 180 points.
 
-## Optional Items
+### Optional Items
 Many items and actions in the game only yield points and serve no function for progressing the game. These are skipped for Any% but are needed for 100%.
 
 Optional Items
@@ -46,5 +46,5 @@ Optional Items
 * Gold nugget (near hermit cave)
 * Music box (tower in same room as vortex ball)
 
-## Item Sorting
+### Item Sorting
 Whenever an item enters your inventory it gets added to the end of the list. You have some influence over the sequence that items get obtained which will affect where they will be in the list when you later go to use them.
