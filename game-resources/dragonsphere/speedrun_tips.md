@@ -35,8 +35,11 @@ Can't be used to:
 * Defeat MacMorn without the sword or amulet
 
 Any%: Use it to heal the king. Skips the soul egg, visiting the spirit plane, and making the 2nd spirit bundle.
+
 100%: Use it on the ward below the well to get the emerald.
+
 Bad Ending: Use it on the catacomb beast. Skips the parchment, healing Ilanie, and making the 2nd spirit bundle.
+
 Low%: Both the Any% and Bad Ending routes yield the lowest known score of 180 points.
 
 ### Optional Items
