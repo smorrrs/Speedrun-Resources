@@ -1,9 +1,9 @@
 # Speedrun Tech
 
-## Right Clicking
+### Right Clicking
 The right-click action can be set by right-clicking an action verb. Set and use right-click actions when re-using the same action multiple times in short succession.
 
-## Mashing
+### Mashing
 Spamming clicks to move will move your character faster.
 
 
