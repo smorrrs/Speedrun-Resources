@@ -40,7 +40,7 @@ Note: Skip the caliph during the first visit to the desert. You need to win 5 ge
       - Select all bottom responses to fail
 * Invoke signet ring
 
-Note: sprite locations are randomized.
+Note: sprite locations are randomized. Consider visiting fairies before desert to reset faster if you get bad luck. There's no other time difference, I chose this order simply to make the route easier to remember: desert > fairy > shifter then desert > fairy > shifter.
 
 Note: Talking to the shak is unnecessary to get the belt, meaning that the bird statue and bird call are skippable. As such, it's slightly faster to fail the second quiz and skip getting the statue.
 
@@ -112,4 +112,69 @@ Note: You can't signet teleport while you have lent out an item
 * Take spirit bundle
 
 Note: The map and black sphere are useless, but you're forced to collect them in order to leave the tower.
+
+
+### Tower (Outside)
+* Go left, left to cliff puzzle
+  - Hop according to the map (same every time so you don't have to open it if memorized)
+  - Skip last peg to jump directly to end from second-to-last peg
+* Take belt
+* Go right to cave
+* Put spirit bundle on Ilanie
+* Talk to Ilanie
+  - Thou art a rose but no! For no rose so fair ever did grow
+* Heal Ilanie with doll
+* Invoke signet ring
+
+### Market
+* Talk to captain
+  - "I only did good for kingdom" > "I'm a shifter but" > "I didn't kill the king" > "Queen is evil" > "Can I give you something?"
+  - Heal captain with doll
+ 
+### Desert
+* Visit caliph
+* Win 5 gem games
+* Heal self with doll
+
+Note: Gem game is randomized. Strategies:
+- Consistent: Always pick red
+- Fast (Risky): Pick yellow until 4+, then pick purple
+- Fastest (Very Risky): Pick green then purple
+
+
+### Fairy Land
+* Give flies to frogs
+  - Given crown
+* Invoke signet ring
+
+
+### Shifter Land
+* Talk to guards
+  - Deny being shifter or king > "want to give you something"
+  - Give sopophoric
+  - Heal self with doll
+* Go right, right
+* Heal monster with doll
+* Talk to woman
+  - Given shifter ring
+* Invoke signet ring
+
+
+### Castle
+* Jump down well
+* Shift into seal
+* Enter trapdoor
+* Put statue on trapdoor
+* Use parchment on beast
+* Save king
+  - Shift into bear
+  - Pull king
+  - Invoke crystal ball
+  - Skip through dialogue
+* Go right up stairs
+  - Push button
+  - Wear crown
+* Use sword on MacMorn
+* Invoke amulet
+
 
