@@ -6,6 +6,10 @@ The right-click action can be set by right-clicking an action verb. Set and use 
 ### Mashing
 Spamming clicks to move will move your character faster.
 
+### Turbo
+In DOSBOX, holding Alt + F12 will fast-forward gameplay. Furthermore, releasing and re-pressing F12 a few times will fast-forward even faster.
+
+This trick saves an incredible amount of time, but may be prohibited in some categories.
 
 
 # Routing Tips
